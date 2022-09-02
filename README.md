@@ -31,46 +31,46 @@ This program is made to use multiple Google Workspace Gmails with a single Googl
 
 ## Environments
 
-- IMAP_SERVER
+- IMAP_SERVER  
   If you are working with Gmail, set this to `imap.gmail.com`.
 
-- IMAP_USER
+- IMAP_USER  
   The IMAP Username to connect to. Google Workspace account.
 
-- IMAP_PASS
+- IMAP_PASS  
   The app password that you generated in step 6.
 
-- LMTP_HOST
+- LMTP_HOST  
   LTMP host to save the emails to. Recommend using [Dovecot Docker Image](https://hub.docker.com/r/dovecot/dovecot/).
 
-- LMTP_PORT
+- LMTP_PORT  
   LMTP port to save the emails to. Usually `24`.
 
-- LDAP_ENABLED
+- LDAP_ENABLED  
   Boolean Value. If you want to use LDAP, set this to `true`.
 
-- TARGET_EMAILS
+- TARGET_EMAILS  
   Comma separated list of emails to send the fetched emails to. Only used if `LDAP_ENABLED` is `false`.
 
-- LDAP_SERVER
+- LDAP_SERVER  
   LDAP server to connect to.
 
-- LDAP_BIND_DN
+- LDAP_BIND_DN  
   LDAP bind DN.
 
-- LDAP_BIND_PW
+- LDAP_BIND_PW  
   LDAP bind password.
 
-- LDAP_BASE_DN
+- LDAP_BASE_DN  
   LDAP base DN.
 
-- LDAP_USER_DN
+- LDAP_USER_DN  
   LDAP user DN.
 
 ## Endpoints
 
-- `/fetch`
+- `/fetch`  
   Fetches emails for all accounts.
 
-- `/fetch/{email}`
+- `/fetch/{email}`  
   Fetches emails for specific account
