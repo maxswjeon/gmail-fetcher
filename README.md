@@ -13,7 +13,7 @@ This program is made to use multiple Google Workspace Gmails with a single Googl
 3. Go to Apps > Google Workspace > Gmail > Default routing
 4. Add a rule to route all emails to the Gmail account you want to use
    1. Pattern match
-   2. `.\*@(YOUR-DOMAIN-HERE)`
+   2. `.*@(YOUR-DOMAIN-HERE)`
    3. Modify Message > Envelope recipient > Change envelope recipient > Replace recipient: `YOUR-GMAIL-HERE`
    4. Save
 5. Go to [Google Account Settings](https://myaccount.google.com) and register a 2-factor authorization (Security > 2-Step Verification)
